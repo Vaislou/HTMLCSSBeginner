@@ -17,7 +17,7 @@ h1 {
 #block1 {
   width: 80%;
   margin: 0 auto;
-  background-image: url(pattern.png);
+  background-image: url(../images/pattern.png);
   padding: 15px;
   border: 5px solid rgb(58, 161, 144);
   border-radius: 30px;
@@ -28,7 +28,7 @@ b u {
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
   color: white;
 }
 
@@ -86,4 +86,12 @@ a {
 
 .two a:hover {
   background: #ADC0CE;
+}
+
+ul.hometask {
+  list-style: square;
+}
+
+ul.hometask img {
+  width: 200px;
 }
