@@ -12,70 +12,94 @@
     <link rel="stylesheet" href="css/buttons.css">
   </head>
   <body>
-    <div id="block1">
-      <div class="main-menu two">
-        <menu>
-          <li><a href="#spisok">Список</a></li>
-          <li><a href="#">Работы</a></li>
-          <li><a href="#">О нас</a></li>
-          <li><a href="#">Блог</a></li>
-          <li><a href="#">Контакты</a></li>
-        </menu>
-      </div>
-      <h1>Самый главный заголовок</h1>
-      <h2 align = 'right' class="red">Заголовок поменьше</h2>
-      <h6>Самый маленький заголовок</h6>
-      <pre>Обычный
-        текст     здесь</pre>
-      <p>Обычный
-        текст
-                     здесь</p>
-      <p>Обычный <br> текст здесь</p>
-      <img src="images/mountains.jpg" alt="mountains" class="img-center">
-      <p align = 'justify' class="red">Сайт рыбатекст поможет <b><i><u>дизайнеру</u></i></b>,
-      <i>верстальщику</i>, <u>вебмастеру</u> сгенерировать
-      несколько абзацев более менее осмысленного текста рыбы на русском языке,
-      а начинающему оратору отточить навык публичных выступлений в домашних
-      условиях. При создании <a href="https://google.com" target="_blank">генератора</a> мы использовали небезизвестный
-      универсальный код речей. Текст генерируется абзацами случайным образом от
-      двух до десяти предложений в абзаце, что позволяет сделать текст более
-      привлекательным и живым для визуально-слухового восприятия.
+    <table border="1" width="100%" cellspacing="0">
+      <thead>
+        <tr>
+          <td colspan="3" align="center" height="150px">Заголовок сайта</td>
+        </tr>
+      </thead>
+      <tfoot>
+        <td colspan="3" align="center" height="150px">Разработчик</td>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td rowspan="3" width="200px">Меню</td>
+          <td rowspan="3"><div id="block1">
+            <div class="main-menu two">
+              <menu>
+                <li><a href="#spisok">Список</a></li>
+                <li><a href="#">Работы</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Блог</a></li>
+                <li><a href="#">Контакты</a></li>
+              </menu>
+            </div>
+            <h1>Самый главный заголовок</h1>
+            <h2 align = 'right' class="red">Заголовок поменьше</h2>
+            <h6>Самый маленький заголовок</h6>
+            <pre>Обычный
+              текст     здесь</pre>
+            <p>Обычный
+              текст
+                           здесь</p>
+            <p>Обычный <br> текст здесь</p>
+            <img src="images/mountains.jpg" alt="mountains" class="img-center">
+            <p align = 'justify' class="red">Сайт рыбатекст поможет <b><i><u>дизайнеру</u></i></b>,
+            <i>верстальщику</i>, <u>вебмастеру</u> сгенерировать
+            несколько абзацев более менее осмысленного текста рыбы на русском языке,
+            а начинающему оратору отточить навык публичных выступлений в домашних
+            условиях. При создании <a href="https://google.com" target="_blank">генератора</a> мы использовали небезизвестный
+            универсальный код речей. Текст генерируется абзацами случайным образом от
+            двух до десяти предложений в абзаце, что позволяет сделать текст более
+            привлекательным и живым для визуально-слухового восприятия.
 
-      По своей сути рыбатекст является альтернативой традиционному lorem ipsum,
-      который вызывает у некторых людей недоумение при попытках прочитать рыбу
-      текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит
-      любой макет непонятным смыслом и придаст неповторимый колорит
-      советских времен.</p>
-      <p><a href="mailto:info@gmail.com">Напишите нам</a></p>
+            По своей сути рыбатекст является альтернативой традиционному lorem ipsum,
+            который вызывает у некторых людей недоумение при попытках прочитать рыбу
+            текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит
+            любой макет непонятным смыслом и придаст неповторимый колорит
+            советских времен.</p>
+            <p><a href="mailto:info@gmail.com">Напишите нам</a></p>
 
-      <a href="https://google.com" target="_blank"><img src="images/circle.jpg" alt="circle" height="350"></a>
-      <img src="images/tree.jpg" alt="tree" height="350">
-      <ol type="a" start="3">
-        <li>Элемент 1</li>
-        <br>
-        <li value="15">Элемент 2</li>
-        <li>Элемент 3</li>
-      </ol>
-      <ol type="I" id="spisok">
-        <li>
-          Носки
-          <ul>
-            <li>Красные</li>
-            <li>Синие</li>
-            <li>Зеленые</li>
-          </ul>
-        </li>
-        <li>Джинсы</li>
-        <li>Рубашки</li>
-      </ol>
-      <p align='center'><a href="#" class="button type2">Просто кнопка</a></p>
-      <ul class="hometask">
-        <li><a href="images.html"><img src="images/miniature.jpg" alt="minion"></a></li>
-        <li><a href="images.html"><img src="images/miniature.jpg" alt="minion"></a></li>
-        <li><a href="images.html"><img src="images/miniature.jpg" alt="minion"></a></li>
-        <li><a href="images.html"><img src="images/miniature.jpg" alt="minion"></a></li>
-        <li><a href="images.html"><img src="images/miniature.jpg" alt="minion"></a></li>
-      </ul>
-    </div>
+            <a href="https://google.com" target="_blank"><img src="images/circle.jpg" alt="circle" height="350"></a>
+            <img src="images/tree.jpg" alt="tree" height="350">
+            <ol type="a" start="3">
+              <li>Элемент 1</li>
+              <br>
+              <li value="15">Элемент 2</li>
+              <li>Элемент 3</li>
+            </ol>
+            <ol type="I" id="spisok">
+              <li>
+                Носки
+                <ul>
+                  <li>Красные</li>
+                  <li>Синие</li>
+                  <li>Зеленые</li>
+                </ul>
+              </li>
+              <li>Джинсы</li>
+              <li>Рубашки</li>
+            </ol>
+            <p align='center'><a href="#" class="button type2">Просто кнопка</a></p>
+            <ul class="hometask">
+              <li><a href="images.html"><img src="images/miniature.jpg" alt="minion"></a></li>
+              <li><a href="images.html"><img src="images/miniature.jpg" alt="minion"></a></li>
+              <li><a href="images.html"><img src="images/miniature.jpg" alt="minion"></a></li>
+              <li><a href="images.html"><img src="images/miniature.jpg" alt="minion"></a></li>
+              <li><a href="images.html"><img src="images/miniature.jpg" alt="minion"></a></li>
+            </ul>
+          </div>
+        </td>
+          <td width="200px">Новость 1</td>
+        </tr>
+        <tr>
+          <td width="200px">Новость 2</td>
+        </tr>
+        <tr>
+          <td width="200px">Новость 3</td>
+        </tr>
+      </tbody>
+    </table>
+
   </body>
 </html>
