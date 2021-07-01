@@ -1,0 +1,46 @@
+body {
+  background-color: #A1A4ED;
+  color: white;
+}
+
+h1 {
+  font-size: 35px;
+  color: blue;
+  font-family: Arial;
+  text-align: center; /*Комментарий*/
+}
+
+.red {
+  color: #E66363;
+}
+
+#block1 {
+  width: 80%;
+  margin: 0 auto;
+  background-image: url(pattern.png);
+  padding: 15px;
+  border: 5px solid rgb(58, 161, 144);
+  border-radius: 30px;
+}
+
+b u {
+  color: blue;
+}
+
+a {
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  transition: 1s;
+  transform: scale(1);
+}
+
+img:hover {
+  transform: scale(0.9);
+}
